@@ -5,9 +5,10 @@ import {NaverMapView} from "@mj-studio/react-native-naver-map";
 const Screen1 = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.HomeText}>Screen1</Text>
+      <Text style={styles.HomeText}>스크린이올시다.</Text>
       <NaverMapView style={{flex: 1}} />
     </View>
+
     
   );
 };
